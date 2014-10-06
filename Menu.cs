@@ -10,6 +10,7 @@ namespace Menu
     public class Menu : MonoBehaviour
     {
         public Functions.DisableMusic Music;
+        public Commands.Commands Commands;
         public static bool DisableMusic = false;
         public static bool DisableSound = false;
         public static bool CombatMusic = false;
