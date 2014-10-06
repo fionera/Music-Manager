@@ -9,11 +9,16 @@ namespace Commands
 {
     public class Commands
     {
-        ModAPI.Console.RegisterCommand("musicstop", musicstop);
+        public Functions.DisableMusic Music;
 
-        public void musicstop(string param)
+        public void RegisterCommands()
+        {
+           ModAPI.Console.RegisterCommand("stopmusic", StopMusic);
+        }
+
+        public void StopMusic(string param)
             {
-                // Code
+                Music.StopMusic();
             }
     }
 }
