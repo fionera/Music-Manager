@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mod id="Music-Manager">
+	<name>
+		<EN>Fight and Cavemusic manager</EN>
+    <DE>Kampf und Höhlenmusik Steuerung</DE>
+	</name>
+  <description>
+    <EN>Manage the Fight and Cavemusic</EN>
+    <DE>Steuer die Kampf und Höhlenmusik</DE>
+  </description>
+  <button standard="V">
+    <id>Open</id>
+    <name>
+      <DE>Menü öffnen</DE>
+      <EN>Open menu</EN>
+    </name>
+  </button>
+	<version>0.2</version>
+</mod>
