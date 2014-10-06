@@ -11,7 +11,7 @@ namespace Commands
     {
         ModAPI.Console.RegisterCommand("musicstop", musicstop);
 
-        public void musicstop(string params)
+        public void musicstop(string param)
             {
                 // Code
             }
