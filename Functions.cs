@@ -31,5 +31,12 @@ namespace Functions
                     this.CaveCombatMusic.SetActive(false);
             }
         }
+        public void StopMusic()
+        {
+                this.StressMusic.SetActive(false);
+                this.CaveStressMusic.SetActive(false);
+                this.CombatMusic.SetActive(false);
+                this.CaveCombatMusic.SetActive(false);
+        }
     }
 }
